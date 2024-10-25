@@ -752,3 +752,12 @@ tab1:NewSlider({
 	
 end})
 ```
+## Create Button
+```lua
+tab1:NewButton({
+    Name = "Click Me!",
+    callback = function()
+        print("Button clicked!")
+    end
+})
+```
